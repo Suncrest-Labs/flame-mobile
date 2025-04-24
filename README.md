@@ -80,19 +80,6 @@ We'll review, suggest changes (if needed), and merge when it’s good to go.
 
 ---
 
-## 🏆 Bounties & Rewards
-
-Earn real rewards for mobile contributions. Some tasks are tagged with:
-- 💰 `bounty`
-- 🎁 `reward`
-
-Rewards include:
-- ETH or stablecoins (via private Aztec payments)  
-- Flame Points or special NFTs  
-- Roles in the DAO or community shoutouts
-
----
-
 ## 🤝 Join the Flame Mobile Community
 
 Get involved to:
@@ -100,8 +87,8 @@ Get involved to:
 - Hear about new issues, bounties, and features  
 - Vote and shape Flame’s roadmap
 
-🔗 **Telegram (Required)**: [t.me/FlameApp](https://t.me/FlameApp)  
-🐦 Twitter: [@FlameOnAztec](https://twitter.com/FlameOnAztec)  
+🔗 **Telegram (Required)**: [t.me/FlameApp](https://t.me/+Nu-Ub_E5Nx5iZDk0)  
+🐦 Twitter: [@FlameOnAztec][Coming Soon]  
 📜 Docs: *Coming Soon*
 
 ---
