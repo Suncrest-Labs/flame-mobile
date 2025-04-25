@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'widgets/lateral_drawer.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +13,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flame',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
+        fontFamily: 'Satoshi',
         // This is the theme of your application.
         //
         // TRY THIS: Try running your application with "flutter run". You'll see
@@ -84,7 +87,21 @@ class _MyHomePageState extends State<MyHomePage> {
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
         title: Text(widget.title),
+        leading: Builder(
+          builder:
+              (context) => GestureDetector(
+                onTap: () => Scaffold.of(context).openDrawer(),
+                child: const Padding(
+                  padding: EdgeInsets.all(8.0),
+                  child: CircleAvatar(
+                    radius: 24,
+                    backgroundImage: AssetImage('assets/avatars/david.png'),
+                  ),
+                ),
+              ),
+        ),
       ),
+      drawer: const LateralDrawer(),
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
