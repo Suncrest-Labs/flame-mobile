@@ -88,17 +88,16 @@ class _MyHomePageState extends State<MyHomePage> {
         // the App.build method, and use it to set our appbar title.
         title: Text(widget.title),
         leading: Builder(
-          builder:
-              (context) => GestureDetector(
-                onTap: () => Scaffold.of(context).openDrawer(),
-                child: const Padding(
-                  padding: EdgeInsets.all(8.0),
-                  child: CircleAvatar(
-                    radius: 24,
-                    backgroundImage: AssetImage('assets/avatars/david.png'),
-                  ),
-                ),
+          builder: (context) => GestureDetector(
+            onTap: () => Scaffold.of(context).openDrawer(),
+            child: const Padding(
+              padding: EdgeInsets.all(8.0),
+              child: CircleAvatar(
+                radius: 24,
+                backgroundImage: AssetImage('assets/avatars/david.png'),
               ),
+            ),
+          ),
         ),
       ),
       drawer: const LateralDrawer(),
