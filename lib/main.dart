@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flame/screens/notifications_screen.dart';
+import 'package:flame/screens/support_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: const NotificationsScreen(),
+      home: const SupportScreen(),
     );
   }
 }
